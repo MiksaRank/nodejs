@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+    background: rgb(34,29,125);
+    background: linear-gradient(90deg, rgba(34,29,125,1) 0%, rgba(0,0,164,1) 0%, rgba(0,212,255,1) 79%);
+}
+
+label {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: calc(50% - 100px);
+    left: calc(50% - 100px);
+    cursor: pointer;
+}
+
+input{
+    display: none;
+}
+
+img {
+    height: 200px;
+    display: inline-block;
+}
+
+#slike #img img {
+    margin: 8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    border-radius: 10px;
+}
+
+#slike{
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 60px);
+}
+
+nav{
+    position: relative;
+    height: 100vh;
+    width: 60px;
+}
+
+nav label{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 60px;
+    height: 60px;
+}
+
+nav label img{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 60px;
+    height: 60px;
+}
